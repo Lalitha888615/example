@@ -72,9 +72,9 @@ public int hashCode() {
 	return Objects.hash(emailId, password, phoneNumber, userId, userName);
 }
 @Override
-public boolean equals(Object obj) {
-	if (this == obj)
-		return true;
+//public boolean equals(Object obj) {
+	//if (this == obj)
+	//	return true;
 	if (obj == null)
 		return false;
 	if (getClass() != obj.getClass())
